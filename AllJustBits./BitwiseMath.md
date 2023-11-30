@@ -70,10 +70,14 @@ Two's compliment
 
 Floating Point
 Lossy representation of Non-Integers and composed of three parts:
+
     * Signed bit
     * exponent
     * mantissa
-Similar to scientific notation except the decimal point is not fixed, it "floats"
+
+Similar to scientific notation except the decimal point is not fixed, it 
+"floats"
+
  value = (-1)^sign * 2^(exponent - 127) * (Mantissa+1)
 
 Single: 32 bits
@@ -86,4 +90,5 @@ Double: 64 bits
    * 52 mantissa bits
 
 Fixed point
-    *  Stores digits to specified precision but the your CPU not optimized for these
+    *  Stores digits to specified precision but the your CPU not optimized for
+ these
