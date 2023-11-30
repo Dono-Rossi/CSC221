@@ -34,22 +34,29 @@ Common bitwise operations are:
 
 Binary values as strict powers of 2 can only represent positive number
 Computers store numbers in memory
+
    *  A group of 8 bits is a byte
-   One byte can contain from:
+ 
+  One byte can contain from:
+
         * 0_10 to 255_10 or 0_2 to 1111 1111_2
+
 To store numbers larger than 255 you need multiple bytes
-   *  C language has 4 different integer types: char, short, int, and long and allows for signed and unsigned values of integer types.
+   *  C language has 4 different integer types: char, short, int, and long and  allows for signed and unsigned values of integer types.
+
        * Unsigned char is a single byte ranging from 0 to 255
        * Signed char is a single byte in decimal ranging from -128 to 127
        * same 256 spots are used but mapped to different numbers
 
 Sign magnitude is one strategy to represent negative numbers
+
     * Uses the left most bit to indicate positive or negative
     * Left most bit of one means a negative number
     * positive numbers range from:
          * 0000 0000_2 to 0111 1111_2 or 0 to 127 in decimal
     * negative numbers range from
          * 1000 0001_2 to 1111 1111_2
+
 This gives two zeroes which is weird
 Additionally you cannot just add the bits together
 
