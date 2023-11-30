@@ -37,35 +37,3 @@ digit starting from the right
 be 1(2)^5
    * in hex, A is 10, B is 11, C is 12, D is 13, E is 14, and F is 15
 !!!
-
-3. Bitwise operations effect one or more bits in a binary value.
-Common bitwise operations are:
-   *  AND
-       * Combines two binary values into a result. Each bit in result is 1 iff bit is 1 in both values being combines
-            * 0 & 0 = 0
-            * 1 & 0 = 0
-            * 0 & 1 = 0
-            * 1 & 1 = 1
-   *  OR(|)
-       * Combines two binary value, if either of them is on, the value is on
-          * 0 | 0 = 0
-          * 1 | 0 = 1
-          * 0 | 1 = 1
-          * 1 | 1 = 1
-   *  XOR(^)
-      * Combines two binary numbers. Result is on is only one is on
-          * 0 ^ 0 = 0
-          * 0 ^ 1 = 1
-          * 1 ^ 0 = 1
-          * 1 ^ 1 = 0
-   *  NOT(~)
-      * Inverst each bit in a value
-          * ~0 = 1
-          * ~1 = 0
-   *  Shifts (<<,>>) 
-      *Moves the bits left or right, includes and operator to indicate how many places to shift
-          * 1_2 << 1_10 = 10_2
-          * 1_2 << 2_10 = 100_2
-          * 100_2 >> 1_10 = 10_2
-          * shifting zeroes leaves it as a zero
-          * when you shift left, zeroes are added on, when you shift right, the rightmost digits are chopped off.
