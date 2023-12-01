@@ -23,7 +23,9 @@ Common bitwise operations are:
           * ~0 = 1
           * ~1 = 0
    *  Shifts (<<,>>)
+
       *Moves the bits left or right, includes and operator to indicate how many places to shift
+
           * 1_2 << 1_10 = 10_2
           * 1_2 << 2_10 = 100_2
           * 100_2 >> 1_10 = 10_2
