@@ -49,5 +49,23 @@ These ports have protocols inside them.
 
 * Use try and except when connecting to websites incase they don't exist.
 
+HTML
 
+Hypertext Markup language
+
+* A way of marking up text to indicate that some text is different than other
+* tag portions of the text to communicate meaning (ex. <p>)
+* invented in early 1990s by Robert Cailliau - founder of the World-Wide-Web
+
+World-Wide-Web Consortium
+
+* Formed by Tim Berner-Lee of MIT
+* Founded to develop standards around HTML, CSS, XML, etc.
+* Insure that the web was based on open standards rather than proprietary vendor products - like cat herding.
+
+Some rules made were:
+
+* Tags must be lower-case
+* Attributes must be enclosed in quotes
+* Tags must be closed
 
